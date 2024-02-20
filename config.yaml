@@ -1,0 +1,183 @@
+languageCode: en-us
+baseURL: "//bridgeqa.org/"
+title: bridgeqa.org
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: bridgeqa
+  description: "This is the website of bridgeqa.org, testing and QA. Some of you may know us as the **QA engeneering company**."
+  keywords: [QA, quality assurance, testing]
+  author: 
+  # author: ["Me", "You"] # multiple authors
+  #images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "BridgeQA.org"
+    icon: "pics/logo.png"
+    iconHeight: 60
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Welcome! \U0001F44B"
+    subtitle: "This is the website of **bridgeqa.org** and
+    we make testing of software and hardware.
+
+**BridgeQA** is an international QA and testing provider US Tech company. 
+
+
+**BridgeQA** is a team of professionals with 5+ years of experience in providing quality assurance services.
+
+We have a huge experience in:
+
+
+**MOBILE TESTING** applications and games on Android and IOS devices
+
+
+**WEB TESTING** eCommerce sites, social networks, news sites, sites for traveling/events/rental 
+ 
+
+**DESKTOP TESTING** applications, plugins, extensions, add-ons for games etc. We provide a clear testing process and fast communication.
+
+
+We have a deep expertise and alive and clear eyes of our QA engineers. We check solutions from the user perspective, based on our deep knowledge and experience in software testing.
+
+
+
+Let's create high quality software together!
+
+
+- 📝 [**info@bridgeqa.org**]
+- 💻 [**GitHub**](https://github.com/)
+
+BridgeQA is not only a professional QA provider but an exciting place to establish a career.
+
+
+You can also connect to us at the following social platforms:
+
+- [**Twitter**](https://twitter.com/)
+- [**LinkedIn**](https://www.linkedin.com/)"
+
+  # imageUrl: "pics/bridge1.jpg"
+  # imageWidth: 300
+  # imageHeight: 300
+    imageTitle: "LOGO"
+    buttons:
+     # - name: Blogs
+     #   url: blogs
+      - name: Projects
+        url: projects
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome! \U0001F44B"
+    Content: "This is the website of **bridgeqa.org** and
+    we make testing of software and hardware.
+    **BridgeQA** is an international QA and testing provider US Tech company. 
+
+
+**BridgeQA** is a team of professionals with 5+ years of experience in providing quality assurance services."
+
+    
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: linkedin
+      url: "https://www.linkedin.com/"
+    - name: github
+      url: "https://github.com/"
+
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+
+  editPost:
+#    URL: "https://github.com/"
+#    Text: "Suggest Changes" # edit text
+    URL: ""
+    Text: "" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: services
+      name: Services
+      url: /Services/
+      weight: 1
+    - identifier: business model
+      name: Business model
+      url: /Business/
+      weight: 2
+    - identifier: Contact
+      name: Contact
+      url: /contact/
+      weight: 3
+    #- identifier: tags
+    #  name: tags
+    #  url: /tags/
+    #  weight: 4
+
+    #- identifier: example
+    #  name: example.org
+    #  url: https://example.org
+    #  weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
