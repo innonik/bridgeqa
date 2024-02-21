@@ -1,5 +1,5 @@
 languageCode: en-us
-baseURL: "//bridgeqa.org/"
+baseURL: "https://bridge-qa.netlify.app"
 title: bridgeqa.org
 paginate: 5
 theme: PaperMod
