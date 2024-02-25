@@ -8,6 +8,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+pluralizeListTitles: false
 
 #googleAnalytics: UA-123-45
 
@@ -26,12 +27,12 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
   ShowReadingTime: false
   ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
+  ShowWordCount: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -39,7 +40,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
+  # Logo and name shown on top left of site
   label:
     text: "BridgeQA.org"
     icon: "pics/logo.png"
@@ -95,7 +96,7 @@ You can also connect to us at the following social platforms:
      # - name: Blogs
      #   url: blogs
       - name: Projects
-        url: projects
+        url: "/projects/"
 
   # home-info mode
   homeInfoParams:
@@ -109,12 +110,12 @@ You can also connect to us at the following social platforms:
 
     
 
-  socialIcons:
-    - name: twitter
+  # socialIcons:
+   # - name: twitter
       url: "https://twitter.com/"
-    - name: linkedin
+  #  - name: linkedin
       url: "https://www.linkedin.com/"
-    - name: github
+  #  - name: github
       url: "https://github.com/"
 
 
@@ -127,9 +128,10 @@ You can also connect to us at the following social platforms:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+    linkFullImages: true
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: true # hide on single page
 
 
   editPost:
@@ -159,10 +161,14 @@ menu:
       name: Business model
       url: /Business/
       weight: 2
+    - identifier: Projects
+      name: Projects
+      url: /Projects/
+      weight: 3
     - identifier: Contact
       name: Contact
       url: /contact/
-      weight: 3
+      weight: 4
     #- identifier: tags
     #  name: tags
     #  url: /tags/
