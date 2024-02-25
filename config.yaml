@@ -5,7 +5,7 @@ paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 pluralizeListTitles: false
@@ -24,6 +24,9 @@ params:
   author: 
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
+  # Image displayed when posting site link on socials
+  # For example, if you post the link to the site in Discord, this image will be displayed
+  # images: [""]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -78,15 +81,12 @@ Let's create high quality software together!
 
 
 - 📝 [**bridgeqacustomerservice@gmail.com**]
-- 💻 [**GitHub**](https://github.com/)
+# - 💻 [**GitHub**](https://github.com/)
 
 BridgeQA is not only a professional QA provider but an exciting place to establish a career.
 
 
 You can also connect to us at the following social platforms:
-
-- [**Twitter**](https://twitter.com/)
-- [**LinkedIn**](https://www.linkedin.com/)"
 
   # imageUrl: "pics/bridge1.jpg"
   # imageWidth: 300
@@ -129,7 +129,7 @@ You can also connect to us at the following social platforms:
 
   cover:
     linkFullImages: true
-    hidden: false # hide everywhere but not in structured data
+    hidden: false  # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
@@ -169,6 +169,7 @@ menu:
       name: Contact
       url: /contact/
       weight: 4
+      
     #- identifier: tags
     #  name: tags
     #  url: /tags/
