@@ -1,5 +1,5 @@
 languageCode: en-us
-baseURL: "//bridgeqa.org/"
+baseURL: "https://bridgeqa.org"
 title: bridgeqa.org
 paginate: 5
 theme: PaperMod
@@ -24,7 +24,7 @@ params:
   author: 
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
-   # Image displayed when posting site link on socials
+  # Image displayed when posting site link on socials
   # For example, if you post the link to the site in Discord, this image will be displayed
   # images: [""]
   DateFormat: "January 2, 2006"
@@ -43,9 +43,6 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
-  
-
   # Logo and name shown on top left of site
   label:
     text: "BridgeQA.org"
@@ -83,30 +80,23 @@ We have a deep expertise and alive and clear eyes of our QA engineers. We check 
 Let's create high quality software together!
 
 
-- 📝 [**info@bridgeqa.org**]
-- 💻 [**GitHub**](https://github.com/)
+- 📝 [**bridgeqacustomerservice@gmail.com**]
+# - 💻 [**GitHub**](https://github.com/)
 
 BridgeQA is not only a professional QA provider but an exciting place to establish a career.
 
 
 You can also connect to us at the following social platforms:
 
-- [**Twitter**](https://twitter.com/)
-- [**LinkedIn**](https://www.linkedin.com/)"
-
-  
-
-  #imageUrl: "logo.png"
-  #imageWidth: 300
-  #imageHeight: 300
-   # imageTitle: "LOGO"
+  # imageUrl: "pics/bridge1.jpg"
+  # imageWidth: 300
+  # imageHeight: 300
+    imageTitle: "LOGO"
     buttons:
      # - name: Blogs
      #   url: blogs
       - name: Projects
         url: "/projects/"
-       
-      
 
   # home-info mode
   homeInfoParams:
@@ -120,12 +110,12 @@ You can also connect to us at the following social platforms:
 
     
 
-  socialIcons:
-    - name: twitter
+  # socialIcons:
+   # - name: twitter
       url: "https://twitter.com/"
-    - name: linkedin
+  #  - name: linkedin
       url: "https://www.linkedin.com/"
-    - name: github
+  #  - name: github
       url: "https://github.com/"
 
 
@@ -139,7 +129,7 @@ You can also connect to us at the following social platforms:
 
   cover:
     linkFullImages: true
-    hidden: false # hide everywhere but not in structured data
+    hidden: false  # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
@@ -179,6 +169,11 @@ menu:
       name: Contact
       url: /contact/
       weight: 4
+      
+    #- identifier: tags
+    #  name: tags
+    #  url: /tags/
+    #  weight: 4
 
     #- identifier: example
     #  name: example.org

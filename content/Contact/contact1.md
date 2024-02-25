@@ -15,4 +15,4 @@ draft: false
 
 ---
 
-please, contact us at info@bridgeqa.org
+please, contact us at bridgeqacustomerservice@gmail.com
