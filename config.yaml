@@ -81,16 +81,14 @@ Let's create high quality software together!
 
 
 - 📝 [**bridgeqacustomerservice@gmail.com**]
-# - 💻 [**GitHub**](https://github.com/)
-
-BridgeQA is not only a professional QA provider but an exciting place to establish a career.
 
 
-You can also connect to us at the following social platforms:
 
-  # imageUrl: "pics/bridge1.jpg"
-  # imageWidth: 300
-  # imageHeight: 300
+BridgeQA is not only a professional QA provider but an exciting place to establish a career."
+  
+  # imageUrl: "logo.jpg"
+    imageWidth: 300
+    imageHeight: 300
     imageTitle: "LOGO"
     buttons:
      # - name: Blogs
@@ -109,16 +107,6 @@ You can also connect to us at the following social platforms:
 **BridgeQA** is a team of professionals with 5+ years of experience in providing quality assurance services."
 
     
-
-  # socialIcons:
-   # - name: twitter
-      url: "https://twitter.com/"
-  #  - name: linkedin
-      url: "https://www.linkedin.com/"
-  #  - name: github
-      url: "https://github.com/"
-
-
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
